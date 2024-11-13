@@ -18,6 +18,7 @@ public class Coupon {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
+	private String name;
 	private String couponName;
 	private int discount;
 }
