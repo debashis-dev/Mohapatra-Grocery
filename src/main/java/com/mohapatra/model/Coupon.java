@@ -21,5 +21,5 @@ public class Coupon {
 	private String name;
 	private String couponName;
 	private int discount;
-	private boolean isAvailable=false;
+	private boolean isAvailable=true;
 }
